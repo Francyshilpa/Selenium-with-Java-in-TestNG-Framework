@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression of JPetStore and SwagLabs">
+  <test name="JPetStore_Flow_Scenario">
+    <classes>
+      
+      <class name="testNGFramework.JPetStore"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="SwagLabs_Login_Logout">
+    <classes>
+      
+      <class name="testNGFramework.SwagLabs"/>
+    </classes>
+ </test> <!-- Test --> 
+</suite> <!-- Suite -->

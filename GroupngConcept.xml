@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Grouping_Concept">
+    <groups>
+    <run>
+     <include name="EVEN">
+     </include>
+     </run>
+     </groups>
+     <classes>
+     <class name="testNGFramework.GroupingConcepts"/>
+         </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

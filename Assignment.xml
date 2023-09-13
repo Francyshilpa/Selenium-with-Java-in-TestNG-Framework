@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Alertspopup_Formy_guru99_JPetStoreDemo_SwagLabs">
+  <test name="Alertpopup_Flow">
+    <classes>
+      <class name="testNGFramework.AlertsPopup"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Formy_Flow">
+    <classes>
+      <class name="testNGFramework.Formy"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Guru_Flow">
+    <classes>
+      <class name="testNGFramework.guru99"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="JPetStore_Flow">
+    <classes>
+      <class name="testNGFramework.JPetStore"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Swaglabs_Flow">
+    <classes>
+      <class name="testNGFramework.SwagLabs"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
